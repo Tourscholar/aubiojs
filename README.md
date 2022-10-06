@@ -174,3 +174,14 @@ navigator.mediaDevices.getUserMedia({audio: true}).then(streamSource => {
 저는 마지막 작업에서 초기값을 설정하고 주파수 시각화 만들고 페이지 양식을 미화할 계획입니다.
 
 - [직접확인](https://tourscholar.github.io/aubiojs/app/)
+```mermaid
+gantt
+    title 캡스톤디자인 일정
+    section C 오디오 라이브러리 컴파일
+    Emscripten, CMake설정:done, 2022-09-09, 30d
+    C 오디오 라이브러리 컴파일: done,2022-09-09, 30d
+    section Web Tuner프로그래밍 만든
+    JavaScript 코드 작성: active, 2022-10-09, 20d
+    CSS 양식 작성: 2022-10-29, 10d
+    
+```
