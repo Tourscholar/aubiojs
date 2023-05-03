@@ -1,10 +1,13 @@
 {
-  "name": "aubiojs",
+  "name": "aubio-js-wasm",
   "version": "1.0.0",
   "files": [
     "build/aubio.js",
-    "build/aubio.wasm"
+    "build/aubio.wasm",
+    "build/index.d.ts"
   ],
+  "main": "build/aubio.js",
+  "types": "build/index.d.ts",
   "scripts": {
     "build": "emcmake cmake -Bbuild -H. && make -Cbuild -j",
     "serve": "live-server --open=./app/index.html",
